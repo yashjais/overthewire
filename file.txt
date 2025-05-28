@@ -10,3 +10,10 @@
 - Password is -> 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
 // Level 2 - Level 3
+- The password is stored in a file that have spaces in the name
+- You need to quote the directory name -> cd 'Magical Island'
+- or escape the space character -> cd Magic\ Island
+- Password is -> MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+// Level 3 - Level 4
+
