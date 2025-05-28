@@ -1,0 +1,12 @@
+// Level 0
+- Learned on how to ssh -> ssh <user_name>@<server_name> -p <port_number> -> ssh bandit0@bandit.labs.overthewire.org -p 2220 -> // password bandit0
+
+// Level 0 - Level 1
+- Found the password in the readme -> ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+// Level 1 - Level 2
+- The password is stored in a file called - located in the home directory
+- To read this file we needed to use full location `cat ./-`
+- Password is -> 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+// Level 2 - Level 3
