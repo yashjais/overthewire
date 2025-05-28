@@ -16,4 +16,15 @@
 - Password is -> MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 // Level 3 - Level 4
+- The password is stored in a hidden file that is under a folder 'inhere'
+- ls -la command could list out the hidden files as well
+- Password is -> 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
+// Level 4 - Level 5
+- The password is stored in a file that is under a folder 'inhere'
+- The file is human-readable, 1033 bytes in size, not executable
+- helpful command -> ls -l --block-size=M will provide the size of files
+- Password is -> 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+// Level 5 - Level 6
+// do ssh bandit5@... for login into server
