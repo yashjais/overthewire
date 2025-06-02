@@ -27,4 +27,11 @@
 - Password is -> 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 // Level 5 - Level 6
-// do ssh bandit5@... for login into server
+- The password is stored in a file that is under a folder 'inhere'
+- The file is hum-readable, 1033 bytes in size, and is not executable
+- helpful command that would find the file with given constraints-> find inhere/ -type f -size 1033c ! -executable
+- then cat <path-to-found-file>
+- Password is -> HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+// Level 6 - Level 7
+// do ssh bandit6@... 
