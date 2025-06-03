@@ -34,4 +34,19 @@
 - Password is -> HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
 // Level 6 - Level 7
-// do ssh bandit6@... 
+- The password is stored somewhere that is owned by a user and a group and has size
+- helpful command that would search all the filesystem with given constraints
+- find / -type f -size 33c -user bandit7 -group bandit6
+- This command will give permission error, to silence permission error use
+- find / -type f -size 33c -user bandit7 -group bandit6 2>/dev/null
+- This command will find the path.. now do cat <path-to-found-file>
+- Password is -> morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+// Level 7 - Level 8
+- The password for the next level is stored in the file data.txt next to the word millionth
+- helpful command is -> grep "millionth" data.txt 
+- another command that would print only the second line -> grep "millionth" data.txt | awk '{print $2}'
+- Password is -> dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc 
+
+// Level 8 - Level 9
+// do ssh bandit8@... 
