@@ -49,4 +49,8 @@
 - Password is -> dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc 
 
 // Level 8 - Level 9
-// do ssh bandit8@... 
+- helpful command is -> sort data.txt | uniq -u and cat data.txt | sort  | uniq -u
+- password is -> 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+// Level 9 - Level 10 
+// do bandit9@...
